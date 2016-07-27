@@ -1,0 +1,66 @@
+{
+  "name": "products",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "post_id": {
+      "type": "number",
+      "required": true
+    },
+    "post_name": {
+      "type": "string"
+    },
+    "post_date": {
+      "type": "date"
+    },
+    "post_author": {
+      "type": "number"
+    },
+    "post_title": {
+      "type": "string"
+    },
+    "post_content": {
+      "type": "string"
+    },
+    "post_excerpt": {
+      "type": "string"
+    },
+    "post_status": {
+      "type": "string"
+    },
+    "categories": {
+      "type": "string"
+    },
+    "_edd_price": {
+      "type": "number"
+    },
+    "_edd_files": {
+      "type": "string"
+    },
+    "_edd_download_limit": {
+      "type": "string"
+    },
+    "_edd_button_behavior": {
+      "type": "string"
+    },
+    "_edd_hide_purchase_link": {
+      "type": "string"
+    },
+    "_edd_images": {
+      "type": "string"
+    },
+    "edd_sku": {
+      "type": "string"
+    },
+    "edd_product_notes": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

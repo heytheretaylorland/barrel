@@ -32,11 +32,11 @@
     "dataSource": "db",
     "public": false
   },
-  "product": {
+  "category": {
     "dataSource": "db",
     "public": true
   },
-  "category": {
+  "products": {
     "dataSource": "db",
     "public": true
   }
